@@ -1,0 +1,26 @@
+Make a colorful learning poster that shows the history of the Chinese word """CHINESE_CHARACTER""" (it means """CHARACTER_MEANING_ENGLISH""").
+
+1. On the left side:
+- Draw the word changing over time from old writing to new writing.
+
+2. On the right side:
+- Draw """CREATURE_DESCRIPTION""". 
+- It should match the meaning of the word and look really cool or magical.
+
+3. Style:
+- Use """ART_STYLE""" (like anime, cartoon, fantasy).
+- Add an old-paper background with pretty borders.
+- Put the title at the top: “How the word ‘"""CHARACTER_MEANING_ENGLISH"""’ Changed”
+- Show the final word again at the bottom in a special box.
+
+
+--------
+"""CHINESE_CHARACTER""" – The Chinese word we are showing (like 龍, 馬, 牛, etc.)
+
+"""CHARACTER_MEANING_ENGLISH""" – What the word means in English (like Dragon, Horse, Ox)
+
+"""EVOLUTION_STEPS""" – How the word looked in old times, in order from oldest to newest (like: bones writing → old style → today's writing)
+
+"""CREATURE_DESCRIPTION""" – What kind of animal or magical creature we want to draw (like: a shiny dragon with fire hair, or a strong turtle with armor)
+
+"""ART_STYLE""" – The style of the drawing (like: cartoon, storybook, anime, fantasy painting)

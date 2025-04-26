@@ -1,0 +1,32 @@
+[
+  {
+    "prompt_text": "1. Ancient Script: depict the earliest pictographic form resembling a <<<animal_eng>>>\n\n2. Traditional Chinese: the modern Chinese character of <<<animal_zh>>>"
+  },
+  {
+    "prompt_text": "1. Ancient Script: depict the earliest pictographic form resembling a <<<animal_eng>>>\n\n2. <<<animal_zh>>>, a correct modern Traditional Chinese character, <<<animal_zh>>>"
+  },
+  {
+    "prompt_text": "Traditional Chinese: the modern Chinese character of <<<animal_zh>>>"
+  },
+  {
+    "prompt_text": "<<<animal_zh>>>, a correct modern Traditional Chinese character, <<<animal_zh>>>"
+  },
+  {
+    "prompt_text": "show <<<animal_zh>>> exactly from modern daily use character set"
+  },
+  {
+    "prompt_text": "please don't cut any part of the word"
+  },
+  {
+    "prompt_text": "please make frame complete"
+  },
+  {
+    "prompt_text": "this word \"<<<animal_zh>>>\" 不正確，please use correct \"<<<animal_zh>>>\""
+  },
+  {
+    "prompt_text": "make the frame complete, \"NO ALTER ANY pixel in the middle\""
+  },
+  {
+    "prompt_text": "forget the previous prompt\n\n--------\n\nremove the selected area, and leave the empty, blank, no text, no image, no color, no anything, don't change any pixel in none selected area, no change word, no change color, no change anything in none selected area\n\n--------\n\nput a Chinese word <<<animal_zh>>>"
+  }
+]

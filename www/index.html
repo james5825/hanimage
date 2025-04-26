@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>hAnImage - Prompt Helper</title>
+    <link rel="icon" href="/www/hanimage_icon.png" type="image/x-icon">
+    <script src="./jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="./classic_style.css"/>
+</head>
+<body>
+<div class="gallery-container">
+    <div class="gallery" id="gallery"></div>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+        <span class="close-button" id="modalClose" style="font-size: 2em; padding: 0.5em;">&times;</span>
+        <div class="tabs">
+            <div class="tab active" data-tab="tab-animal">🦄</div>
+            <div class="tab" data-tab="tab-theme">🎨</div>
+            <div class="tab" data-tab="tab-custom">🤖</div>
+            <div class="tab" data-tab="tab-postprocess">🛠️</div>
+            <div class="tab" data-tab="tab-picture">🗟</div>
+        </div>
+
+        <div id="tab-animal" class="tab-content active">
+            <div class="field-row">
+                <label for="chinese_radio">Animal:</label>
+                <input type="text" id="chinese_radio" placeholder="Animal Name" style="flex:1; margin-right:0.5em;"/>
+            </div>
+            <div class="field-row">
+                <div class="radio-group" id="animalRadioGroup"></div>
+            </div>
+
+        </div>
+        <div id="tab-theme" class="tab-content">
+            <div class="field-row">
+                <label for="theme_radio">Theme:</label>
+                <input type="text" id="theme_radio" placeholder="Theme Name" style="flex:1; margin-right:0.5em;"/>
+            </div>
+            <div class="field-row">
+                <div class="radio-group" id="themeRadioGroup"></div>
+            </div>
+        </div>
+
+        <div id="tab-picture" class="tab-content">
+            <h2>Picture Prompt</h2>
+            <label for="textarea_picture_prompt">Prompt</label>
+            <textarea id="textarea_picture_prompt" rows="17" placeholder="Prompt"></textarea>
+            <div class="field-row">
+                <button id="btn_picture_p">Copy Prompt >>> AI Gen Picture</button>
+            </div>
+        </div>
+
+        <div id="tab-custom" class="tab-content">
+            <div class="field-row">
+                <label for="chinese_v">Chinese:</label>
+                <input type="text" id="chinese_v" placeholder="中文" style="flex:1; margin-right:0.5em;"/>
+                <select id="animalSelector" style="flex:0 0 150px;"></select>
+            </div>
+            <div class="field-row">
+                <label for="style">Style:</label>
+            </div>
+            <div class="field-row">
+                <textarea id="style" rows="3" placeholder="Style/Theme"></textarea>
+            </div>
+            <div class="field-row">
+                <select id="styleSelector">
+                    <option value="">-- Style / Theme --</option>
+                </select>
+            </div>
+            <div style="margin-top:1em;">
+                <button id="btn_customized_fast_p">Copy Prompt for GPT</button>
+            </div>
+        </div>
+
+        <div id="tab-postprocess" class="tab-content">
+            <h2>Post Process Prompts</h2>
+            <div id="postprocess-container"></div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    // Helper function to populate post-process items
+    function populatePostProcessItems(data, $container, animal) {
+        data.forEach(item => {
+            let promptText = item.prompt_text || '';
+            if (promptText && animal && animal.eng && animal.zh) {
+                promptText = promptText
+                    .replaceAll('<<<animal_eng>>>', animal.eng)
+                    .replaceAll('<<<animal_zh>>>', animal.zh);
+            }
+            const $row = $('<div class="field-row" style="display:flex; align-items:center; margin-bottom:0.5em;"></div>');
+            const $textarea = $('<textarea rows="2" class="post_process_text_field" style="flex:1; margin-right:0.5em;"></textarea>').val(promptText);
+            const $copyBtn = $('<button aria-label="Copy">📋</button>').click(() => navigator.clipboard.writeText(promptText));
+            $row.append($textarea, $copyBtn);
+            $container.append($row);
+        });
+    }
+
+    $(function () {
+        // Base path for JSON data
+        const basePath = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1);
+
+        // Tab switching behavior
+        $('.tab').click(function () {
+            const tabId = $(this).data('tab');
+            $('.tab').removeClass('active');
+            $(this).addClass('active');
+            $('.tab-content').removeClass('active');
+            $('#' + tabId).addClass('active');
+        });
+
+        // Load style options from external JSON
+        $.getJSON(basePath + 'data/style_theme.json')
+            .done(function (data) {
+                const $selector = $('#styleSelector');
+                $selector.empty().append($('<option>').val('').text('-- 選擇風格 --'));
+                data.forEach(item => {
+                    $selector.append($('<option>').val(item.val).text(item.text));
+                });
+                // ======== radio tab ========
+                const $group = $('#themeRadioGroup').empty();
+                data.forEach(item => {
+                    const val = JSON.stringify(item);
+                    const $label = $('<label>').append(
+                        $('<input>', {
+                            type: 'radio',
+                            name: 'themeRadio',
+                            value: val,
+                            style: 'width: 120px; height: 160px; margin: 0.5em;'
+                        }),
+                        $('<img>', {
+                            src: `img_theme/${item.id}.jpg`,
+                            style: 'width: 120px; height: 160px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);'
+                        })
+                    );
+                    $group.append($label);
+                });
+                // On radio change, set Chinese field
+                $('#themeRadioGroup').on('change', 'input[name="themeRadio"]', function () {
+                    const selected = JSON.parse($(this).val());
+                    $('#theme_radio').val(selected.text);
+                    $('#styleSelector').val(selected.val);
+                    $('#style').val(selected.text);
+
+                    // Highlight the selected image
+                    $('#themeRadioGroup label img').removeClass('highlighted');
+                    $(this).siblings('img').addClass('highlighted');
+
+                });
+
+            }).fail(function () {
+            console.error('無法讀取 animal.json');
+
+
+        })
+            .fail(function () {
+                console.error('無法讀取 ' + basePath + 'data/style.json');
+            });
+
+        // Style selector change
+        $('#styleSelector').on('change', function () {
+            const val = $(this).val();
+            if (val) $('#style').val(val);
+        });
+
+
+        // Load animal options as radio buttons
+        $.getJSON(basePath + 'data/animal.json')
+            .done(function (data) {
+                const $group = $('#animalRadioGroup').empty();
+                data.forEach(item => {
+                    const val = JSON.stringify(item);
+                    const $label = $('<label>').append(
+                        $('<input>', {type: 'radio', name: 'animalRadio', value: val}),
+                        $('<span>', {style: 'font-size: 2.75em; margin-right: 0.05em;'}).text(item.icon),
+                        `${item.zh}<br/>${item.eng}`
+                    );
+                    $group.append($label);
+                });
+                // On radio change, set Chinese field
+                $('#animalRadioGroup').on('change', 'input[name="animalRadio"]', function () {
+                    const selected = JSON.parse($(this).val());
+                    $('#chinese_radio').val(selected.zh);
+                    $('#chinese_v').val(selected.zh);
+                    $('#animalSelector').val(JSON.stringify(selected));
+
+                    // Populate postprocess prompts for this animal
+                    const $container = $('#postprocess-container').empty();
+                    $.getJSON(basePath + 'data/post_process.json').done(data => {
+                        populatePostProcessItems(data, $container, selected);
+                    });
+
+
+                });
+
+            }).fail(function () {
+            console.error('無法讀取 animal.json');
+        });
+
+        // Copy radio prompt
+        $('#btn_radio_fast_p').click(() => {
+            const chinese = $('#chinese_radio').val().trim();
+            const style = $('#style_radio').val().trim();
+            if (!chinese && !style) return alert('請填寫至少一個欄位');
+            const styleText = style ? `Style/theme: ${style}.` : '';
+            const result = `Chinese: ${chinese}. ${styleText}`;
+            navigator.clipboard.writeText(result);
+        });
+
+        // Copy picture prompt
+        $('#btn_picture_p').click(() => {
+            const txt = $('#textarea_picture_prompt').val().trim();
+            if (!txt) return alert('請先輸入或選擇 Prompt 內容');
+            navigator.clipboard.writeText(txt);
+        });
+
+        // Dropdown custom tab: load animal selector
+        $.getJSON(basePath + 'data/animal.json').done(data => {
+            const $sel = $('#animalSelector').empty().append($('<option>').val('').text('-- 選擇動物 --'));
+            data.forEach(item => $sel.append($('<option>').val(JSON.stringify(item)).text(`${item.icon} ${item.zh} (${item.eng})`)));
+        });
+        $('#animalSelector').change(function () {
+            const item = JSON.parse($(this).val());
+            $('#chinese_v').val(item.zh);
+            // load postprocess for dropdown too
+            const $container = $('#postprocess-container').empty();
+            $.getJSON(basePath + 'data/post_process.json').done(data => {
+                populatePostProcessItems(data, $container, item);
+            });
+
+
+        });
+
+        // Load style-theme selector
+        $.getJSON(basePath + 'data/style_theme.json').done(data => {
+            const $sel = $('#styleSelector');
+            if ($sel.length) {
+                $sel.empty().append($('<option>').val('').text('-- 選擇風格 --'));
+                data.forEach(i => $sel.append($('<option>').val(i.val).text(i.text)));
+                $sel.on('change', () => {
+                    if ($sel.val()) $('#style').val($sel.val());
+                });
+            }
+        });
+
+        // Copy customized dropdown prompt
+        $('#btn_customized_fast_p').click(() => {
+            const txtPrompt = $('#textarea_picture_prompt').val().trim();
+
+            const chinese = $('#chinese_v').val().trim();
+            const style = $('#style').val().trim();
+            if (!chinese && !style) return alert('請填寫至少一個欄位');
+            const styleText = style ? `The style is inspired by ${style} style.` : '';
+
+            const intro = `You are an AI assistant. Please base on the picture upload and its "description", and to change to the main topic to ${chinese}, and generates a richly detailed image generation prompt for ${chinese} word. ${styleText} The output should be soft wrap in a code Canvas, and good for copy.`;
+            const result = `${intro}\n\n--------\n\nDescription: ${txtPrompt}`;
+
+            navigator.clipboard.writeText(result);
+        });
+
+        // Load gallery data for main view
+        $.getJSON(basePath + 'data/image_data.json')
+            .done(data => {
+                data.forEach(row => {
+                    const name = $.trim(row.name);
+                    const number = name.replace('.png', '');
+                    const prompt = $.trim(row.prompt);
+                    if (!name || !prompt) return;
+                    const imgPath = `${basePath}img_gen/${$.trim(row.cate)}/${name}`;
+                    const $item = $(`<div class="gallery-item" style="position: relative; display: flex; flex-direction: column; align-items: center;"></div>`).append(
+                        $('<img>').attr({src: imgPath, alt: prompt}),
+                        $('<span style="position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); color: white; padding: 2px 5px; font-size: 12px;">').text(`#${number}`)
+                    );
+                    $item.click(() => {
+                        navigator.clipboard.writeText(prompt);
+                        $('#textarea_picture_prompt').val(prompt);
+                        $('#modalOverlay').fadeIn(200);
+                    });
+                    let timer;
+                    $item.on('mousedown touchstart', function () {
+                        timer = setTimeout(() => {
+                            // Create temporary link to download the image
+                            const downloadLink = document.createElement('a');
+                            downloadLink.href = imgPath;
+                            downloadLink.download = name; // Use the image filename for download
+                            document.body.appendChild(downloadLink);
+                            downloadLink.click();
+                            document.body.removeChild(downloadLink);
+                        }, 800); // 800ms threshold for long press
+                    }).on('mouseup mouseleave touchend touchcancel', function () {
+                        clearTimeout(timer);
+                    });
+                    $('#gallery').append($item);
+                });
+            })
+            .fail(() => console.error('讀取 image_data.json 錯誤'));
+
+        // Load post_process.json initially for third tab
+        const $container = $('#postprocess-container');
+        $.getJSON(basePath + 'data/post_process.json').done(data => {
+            populatePostProcessItems(data, $container, null);
+        });
+
+        // Modal open/close
+        const openModal = () => $('#modalOverlay').fadeIn(200);
+        const closeModal = () => $('#modalOverlay').fadeOut(200);
+        $('#modalClose').click(closeModal);
+    });
+</script>
+</body>
+</html>

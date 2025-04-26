@@ -1,0 +1,330 @@
+[
+  {
+    "cate": "card",
+    "name": "001.png",
+    "prompt": "Create a magical educational poster titled 'Evolution of ‘龍’' that visually illustrates the history of the Chinese character 龍 (meaning 'Dragon').\n\n**Layout:**\n- The poster is split vertically into two main parts.\n\n**Left Side (Character Evolution):**\n- Display the transformation of the character 龍 in 2 clear steps:\n  1. Ancient Script – depict the earliest pictographic form resembling a primitive dragon.\n  2. Traditional Chinese – the modern complex form of 龍.\n\n**Right Side (Dragon Art):**\n- Illustrate a majestic and friendly **Chinese dragon** soaring through a mystical sky.\n- Dragon details: elegant and long, red and golden scales, flowing whiskers, glowing eyes, surrounded by clouds and magical energy.\n- It should feel ancient, wise, but welcoming—designed to appeal to children.\n\n**Styling & Theme:**\n- Fantasy illustration style.\n- Glowing and vibrant colors.\n- Background resembles an old parchment or ancient scroll, with ornate corners.\n- Elegant calligraphy for the title and labels.\n\n**Title:**\n- “Evolution of ‘龍’” centered at the top in stylized text.",
+    "chinese_character_in_narrative_elements": "龍",
+    "style": "fantasy illustration",
+    "color": "glowing and vibrant colors (especially red and gold)",
+    "background": "ancient parchment or scroll with ornate corners",
+    "additional_notes": "",
+    "base_template": "Create a magical educational poster titled 'Evolution of ‘{Chinese}’' that visually illustrates the history of the Chinese character {Chinese}. The poster is vertically split into two sections. On the left side, show the evolution of {Chinese} in 2 steps: (1) Ancient Script – depict the earliest pictographic form resembling a primitive dragon., and (2) final character {Chinese} in a decorative box. Use a vertical flow with arrows. On the right side, depict a majestic, child-friendly Chinese dragon with elegant features (long body, red/golden scales, flowing whiskers, glowing eyes) soaring in a mystical sky with clouds and magical energy. Use {style}, {color}, and a {background}. Title the poster at the top as 'Evolution of ‘{Chinese}’' in elegant calligraphy."
+  },
+  {
+    "cate": "card",
+    "name": "002.png",
+    "prompt": "Create a visual educational poster titled ‘The Evolution of 龜’ on an aged parchment background with ornate classical borders. Divide the layout into two balanced panels:\n\nLeft panel (Script Progression):\n- Display the character 龜 in 2 forms:\n  1. Ancient Script – depict the earliest pictographic form resembling a Turtle.\n  2. Traditional Chinese – the modern complex form of 龜.\n\n- Use a soft, whimsical shading style, as if hand‑painted with watercolor on parchment, highlighting each form with gentle glows of warm oranges, browns, and golds to evoke an ancient, magical feel.\n\nRight panel (Themed Character Illustration):\n• Feature a stylized storybook turtle inspired by 龜, plodding serenely across the scene. Its shell and scales incorporate subtle motifs of the character’s strokes from each historical form.\n• Surround the turtle with tiny fairy‑like creatures and softly glowing orbs, lending a fantasy storybook charm that appeals to children.\n• Render the entire illustration with soft shading, whimsical detail, and a warm, golden ambient glow.\n\nColor palette: predominantly warm tones—burnt sienna oranges, rich chestnut browns, antique gold—layered to simulate the look of magical, sun‑lit parchment. Overall, the poster should feel both educational and enchanting, as if plucked from a children’s fantasy storybook about the history of Chinese writing.",
+    "chinese_character_in_narrative_elements": "龜",
+    "style": "Fantasy storybook illustration, with soft shading and whimsical detail, suitable for children",
+    "color": "Warm tones (oranges, browns, golds) for a magical, ancient parchment vibe",
+    "background": "Aged parchment texture with ornate classical borders",
+    "additional_notes": "",
+    "base_template": "Create a visual educational poster that illustrates the historical evolution of a Chinese character alongside a stylized character representation. Divide the layout into two sections: one for the script progression and one for a themed character illustration. Include a title at the top and a featured final character with a label at the bottom."
+  },
+  {
+    "cate": "card",
+    "name": "003.png",
+    "prompt": "Create a magical educational poster titled \"Evolution of ‘牛’\" that visually illustrates the history of the Chinese character 牛 (meaning \"Ox\").\n\nLayout:\nSplit the poster vertically into two main sections:\n\nLeft Side (Character Evolution):\nShow the character 牛 evolving in 2 stages:\n\nAncient Script – illustrate the earliest pictographic form, resembling a primitive ox or cattle head with horns, inspired by oracle bone or bronze inscriptions.\n\nTraditional Chinese – depict the modern traditional character 牛, bold and elegant in brush-style calligraphy.\n\nUse an arrow between each stage to show progression and clearly label them:\n\n“Ancient Script” above the first form.\n\n“Traditional Chinese” above the second.\n\nRight Side (Ox Illustration):\nFeature a majestic, mythical Chinese ox standing or walking through a mystical landscape.\n\nOx details: strong and sturdy body, dark earthy fur with golden sheen, pronounced horns, wise and calm eyes, surrounded by swirls of wind, mountains, and a celestial aura that suggests strength and reliability.\n\nThe ox should feel noble and ancient, appealing to both children and adults through a fantasy art style.\n\nStyling & Theme:\nFantasy illustration with vibrant and glowing colors.\n\nThe entire background should resemble aged parchment or an ancient scroll, complete with ornate decorative corners and slightly burned or curled edges.\n\nUse elegant, stylized calligraphy for the title and labels to match the classical theme.\n\nTitle:\nCentered at the top of the poster:\n\"Evolution of ‘牛’\" in beautiful, traditional-style typography.",
+    "chinese_character_in_narrative_elements": "牛",
+    "style": "fantasy painting with warm, earthy tones",
+    "color": "colorful, warm tones",
+    "background": "vintage parchment texture with classical borders",
+    "additional_notes": "",
+    "base_template": "Create a visually engaging educational poster that presents the historical evolution of the Chinese character '{Chinese}'.\n\n**Left Side:**\nIllustrate the transformation of the character through time, from ancient script (e.g., 甲骨文) to modern form (e.g., 繁體中文), showing each stage in a sequential manner.\n\n**Right Side:**\nDepict a symbolic or mythological figure inspired by the meaning of the character. The figure should embody the spirit or cultural significance behind the word (e.g., a minotaur representing strength and agriculture for 'Ox'). Place the figure in a compelling scene that blends realism and imagination.\n\n**Style:**\nUse {style}. Emphasize {color} to create mood and focus.\n\n**Background:**\nIncorporate a {background}.\n\n**Additional Elements:**\n- Place a bold, decorative title at the top (e.g., 'Evolution of “{Chinese}”').\n- Feature the final version of the Chinese character at the bottom inside a stylized frame or box."
+  },
+  {
+    "cate": "card",
+    "name": "004.png",
+    "prompt": "Create a colorful, anime-style educational poster titled “Evolution of ‘Snake’”, designed for children with a magical fantasy aesthetic.\n\nLayout:\n--------\nLeft Side: Show a 2 of chronological progression of the Chinese character \"蛇\":\n\n1. the ancient script: depict the earliest pictographic form resembling a primitive turtle. a snake.\n\n2. the traditional Chinese: the modern traditional Chinese form of 蛇. it need to be exactly correct\n\n--------\nRight Side: Illustrate a dramatic, mystical scene:\n\nA large, powerful snake with shimmering green and gold scales, glowing yellow eyes, and a forked tongue, coiled in a dynamic pose.\n\nThe snake is wrapped protectively around a young anime-style wizard. The wizard should have spiky hair, a dark cloak, and a wide-brimmed pointed hat.\n\nHe holds a wooden staff topped with a glowing orb emitting magical blue energy.\nAdd magical effects like glowing runes or swirling blue mist around them to heighten the fantasy atmosphere.\n\n--------\nStyle and Aesthetic:\n\nRich, saturated colors with dramatic lighting.\nStylized fantasy-RPG anime aesthetic.\nBackground should resemble aged parchment with intricate fantasy-style borders (ornate corners and frame).\n\n\nTone:\nEngaging and fun for children.\nA perfect blend of magical, educational, and adventurous vibes.",
+    "base_template": "A colorful learning poster showing the evolution of a Chinese character, blending educational and fantasy elements designed to engage children.",
+    "chinese_character_in_narrative_elements": "蛇",
+    "style": "Anime style with dramatic lighting, rich colors, and fantasy RPG/anime aesthetics",
+    "color": "Bright, vibrant, and engaging colors suitable for a children's audience",
+    "background": "Old parchment texture with detailed fantasy-style borders",
+    "additional_notes": "Include glowing-eyed snake coiled around a wizard, mystical vibes, title at the top and decorative framed character at the bottom"
+  },
+  {
+    "cate": "card",
+    "name": "005.png",
+    "prompt": "Make a colorful learning poster that shows the Chinese word 馬 (it means Horse).\n\nOn the left side:\n\nDraw the word changing over time from old writing to new writing.\n\n- Display the character 馬 in 2 forms:\n  1. Ancient Script – depict the earliest pictographic form resembling a horse.\n  2. Traditional Chinese – the modern complex form of 馬.\n\nOn the right side:\n\nDraw a flying unicorn with wings, based on the idea of a magical horse.\n\nIt should look majestic, child-friendly, and whimsical.\n\nStyle:\n\nUse cartoon style with bright, clean lines and colorful design.\n\nAdd a clean, educational poster layout (light purple theme) instead of an old-paper look.\n\nPut the title at the top: “Evolution of ‘Horse’”\n\n",
+    "base_template": "Create an educational visual that showcases the evolution of a Chinese character from ancient script to modern script, accompanied by an imaginative illustration inspired by the character’s meaning.",
+    "chinese_character_in_narrative_elements": "馬",
+    "style": "Cartoon style with whimsical, child-friendly visuals using clean lines and smooth shading.",
+    "color": "Bright and playful with a dominant light purple theme for harmony and appeal.",
+    "background": "Clean, flat poster layout with minimal distractions to emphasize educational elements.",
+    "additional_notes": "Include a fantasy creature based on the character’s meaning (e.g., a flying unicorn with wings for 馬), a clear title at the top (e.g., 'Evolution of “Horse”'), and highlight the final modern character in a prominent box at the bottom."
+  },
+  {
+    "cate": "card",
+    "name": "006.png",
+    "prompt": "Make a colorful learning poster that shows the history of the Chinese word 貓 (it means Cat).\n\n1. On the left side:\n- Display the character 貓 in 2 forms:\n  1. Ancient Script – depict the earliest pictographic form resembling a Cat setting.\n  2. Traditional Chinese – the modern complex form of 貓.\n\n2. On the right side:\n- Cat god, like accent Egyptian, which half cat half human with smile, holding scepter \n- It needs to be children friendly, not violate\n\n3. Style:\n- Use fantasy painting style.\n- Add an old-paper background with pretty borders.\n- Put the title at the top: “How the word ‘Cat’ Changed”\n",
+    "base_template": "A visual educational poster showing the historical evolution of a Chinese character, with artistic and narrative elements reflecting the meaning of the character.",
+    "chinese_character_in_narrative_elements": "Include a mythological or symbolic figure that visually represents the meaning of the character (e.g., a cat for 貓), integrating culturally relevant imagery.",
+    "style": "Fantasy painting with soft, friendly features suitable for children; decorative borders and a parchment-style look.",
+    "color": "Warm, earthy tones with accent colors for emphasis (e.g., reds, golds, teals) to maintain a traditional yet whimsical look.",
+    "background": "Old-paper textured background with ornate floral borders to frame the content.",
+    "additional_notes": "Left side must show the character's transformation across historical scripts (e.g., Jiaguwen to Guwen to Traditional Chinese), while the right side should illustrate a culturally tied anthropomorphic figure. Title goes on top, final character appears again at bottom in a distinct display box."
+
+  },
+  {
+    "cate": "card",
+    "name": "007.png",
+    "prompt": "Make a fun and magical learning poster about the Chinese word 狐 (it means \"Fox\").\n\nOn the left side, display the character 狐 in 2 forms:\n1. Oracle bone script – an old drawing of a fox with a tail, on a walk form like the picture.\n2. Traditional Chinese – the modern character 狐.\n\nOn the right side:\n\nDraw a cute and magical fox spirit with shiny fur and maybe nine tails.\nIt can be running or jumping in a moonlit forest or glowing sky.\nMake it look smart and friendly for kids.\n\nStyle:\n\nUse soft orange and blue colors.\nAdd a scroll and pretty borders like an old storybook.\nTitle at the top: “Evolution of ‘Fox’”",
+    "base_template": "Create an educational and whimsical visual guide that showcases the transformation of a Chinese character through historical scripts, accompanied by a magical creature that represents the word's meaning.",
+    "chinese_character_in_narrative_elements": "狐",
+    "style": "Storybook illustration with fantasy elements; cute and kid-friendly aesthetic; scrolls, borders, and soft textures reminiscent of traditional East Asian art.",
+    "color": "Warm soft orange tones for the creature and decorative elements, paired with calming cool blue for the background and night sky.",
+    "background": "A moonlit forest setting with magical ambiance, glowing light sources, and a night sky filled with stars or mist.",
+    "additional_notes": "Include a cute fox spirit with multiple tails (e.g. nine-tails), mid-action (jumping/running), with intelligent and friendly expression; design the poster title as 'Evolution of ‘Fox’' at the top in a scroll banner."
+
+  },
+  {
+    "cate": "card",
+    "name": "008.png",
+    "prompt": "Make a fun and magical learning poster about the Chinese word 羊 (it means \"Sheep\").\n\nOn the left side, show how the word :\n\n1. Ancient Script – a simple drawing of a sheep with horns.\n2. Traditional Chinese – the modern Chinese character of 羊.\n\nOn the right side:\n\nDraw a fluffy, magical sheep with sparkly wool and tiny cloud-like hooves.\nIt can be floating in the sky or jumping over glowing stars.\nMake it gentle, happy, and dreamy for kids.\n\nStyle:\n\nUse soft white and pastel purple colors.\nAdd a scroll and sparkly borders like a fairytale.\nTitle at the top: “Evolution of ‘Sheep’”",
+    "chinese_character_in_narrative_elements": "羊",
+    "style": "",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "009.png",
+    "prompt": "Make a colorful and magical learning poster that shows the change of the Chinese word 鯨 (it means \"Whale\").\n\n--------\nOn the left side, display the character 鯨 in 2 forms:\n\n1. Oracle bone script – depict the earliest pictographic form resembling a Whale.\n\n2. Traditional Chinese – the modern Chinese character of 鯨\n\n--------\nOn the right side:\n\nDraw a friendly whale hero swimming in the ocean, with sparkles and swirls around it.\n\nMake it part-whale, part magical creature — maybe with glowing fins, shiny purple scales, or a little crown!\n\nIt should look happy and majestic, like it's gliding through a dreamy underwater world.\n\nStyle:\n\nUse a fantasy illustration style with a glowing purple color theme (water, whale, background).\n\nAdd a wavey scroll or card-like background with soft lavender or violet borders.",
+    "chinese_character_in_narrative_elements": "鯨",
+    "style": "",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "010.png",
+    "prompt": "Create a magical educational poster titled \"Evolution of ‘虎’\".\n\nThe poster is vertically split into two distinct sections:\n\n--- On the left side, show how the word :\n\n1. Ancient Script – the earliest, raw pictographic depiction of a tiger\n2. Traditional Chinese – the modern Chinese character of 虎\n\n--- Right Side – Majestic Tiger Scene\nDepict a majestic, child-friendly tiger with:\n\nA muscular yet graceful physique. Amber and black striped fur glowing subtly under soft jungle light. Sharp, expressive eyes full of wisdom and curiosity. A pose that shows it prowling through a misty jungle\n\nIntegrate bold ink-brush strokes in the rendering of both the tiger and the misty environment. Bamboo leaves swirl around, drawn with calligraphic flair, and soft layers of ink-wash form the jungle canopy. The ancient bamboo scroll texture continues here, scratched slightly as if the tiger walked across it.\n",
+    "chinese_character_in_narrative_elements": "虎",
+    "style": "bold ink-brush style",
+    "color": "black and amber",
+    "background": "ancient bamboo scroll with claw marks",
+    "base_template": "Create a magical educational poster titled 'Evolution of ‘{Chinese}’' that visually illustrates the history of the Chinese character {Chinese}. The poster is vertically split into two sections. On the left side, show the evolution of {Chinese} in 2 steps: (1) Ancient Script – depict the earliest pictographic form resembling a primitive dragon., and (2) final character {Chinese} in a decorative box. Use a vertical flow with arrows. On the right side, depict a majestic, child-friendly Chinese dragon with elegant features (long body, red/golden scales, flowing whiskers, glowing eyes) soaring in a mystical sky with clouds and magical energy. Use {style}, {color}, and a {background}. Title the poster at the top as 'Evolution of ‘{Chinese}’' in elegant calligraphy."
+  },
+  {
+    "cate": "card",
+    "name": "011.png",
+    "prompt": "Create an educational visual poster in a cartoon style with whimsical, child-friendly visuals, using clean lines and smooth shading. The central theme is the evolution of the Chinese character 馬 (horse).\n\nAt the top center, add a clear, bold title in both English and Traditional Chinese: Evolution of “Horse”\n\nThe poster is vertically split into two distinct sections:\n\n--- On the left side, show how the word :\nDisplay the character 馬 in 2 forms:\n1. Ancient Script – depict the earliest pictographic form resembling a horse.\n2. Traditional Chinese – the modern Chinese character of 馬\n  \n--- Right side (Themed Character Illustration):\n\nColor Palette:\nUse a bright and playful color scheme dominated by light purple, complemented by cheerful accent colors (e.g., soft yellows, turquoise, light pinks) to maintain visual harmony.\n\nIllustrative Element:\nInclude an imaginative fantasy creature. A flying unicorn with a flowing mane, feathered wings, and a spiral horn. The creature should have light purple tones, sparkles, and a gentle, friendly expression to appeal to children.\n\nLayout & Design:\nPlace everything on a clean, flat background in a poster-style layout to avoid visual distractions.\n\n\n✅ Notes for Emphasis:\nEnsure educational clarity—each character stage should be legible and historically accurate in shape. The fantasy creature should feel like it emerges from the spirit of the character, adding imagination while reinforcing meaning.\n\nOverall tone: joyful, magical, and informative.",
+    "base_template": "Create an educational visual that showcases the evolution of a Chinese character from ancient script to modern script, accompanied by an imaginative illustration inspired by the character’s meaning.",
+    "chinese_character_in_narrative_elements": "馬",
+    "style": "Cartoon style with whimsical, child-friendly visuals using clean lines and smooth shading.",
+    "color": "Bright and playful with a dominant light purple theme for harmony and appeal.",
+    "background": "Clean, flat poster layout with minimal distractions to emphasize educational elements.",
+    "additional_notes": "Include a fantasy creature based on the character’s meaning (e.g., a flying unicorn with wings for 馬), a clear title at the top (e.g., 'Evolution of “Horse”'), and highlight the final modern character in a prominent box at the bottom."
+  },
+  {
+    "cate": "card",
+    "name": "012.png",
+    "prompt": "Create a visual educational poster designed in the style of a fantasy storybook illustration, suitable for children. The subject is the Chinese character \"鹿\" (deer).\n\nLayout & Structure:\n- The composition is split vertically into two main sections:\n  - Left Side: \n\t1. Ancient Script – the earliest, raw pictographic depiction of a deer\n\t2. Traditional Chinese – the modern Chinese character of 鹿\n\t\n  - Right Side: A whimsical character illustration of a fantastical deer, designed with anthropomorphic charm — large expressive eyes, a flowing mane, magical glowing antlers, and a soft aura of ancient mysticism.\n\nStyle & Theme:\n- Render in a fantasy storybook style, with soft shading, gentle lines, and whimsical, child-friendly detailing.\n- The artwork should evoke wonder and curiosity, ideal for a children’s educational poster.\n\nColor Palette:\n- Use warm tones: rich oranges, burnt sienna browns, and antique golds.\n- These hues should evoke the feeling of ancient parchment imbued with magic and history.\n\nBackground & Elements:\n- Set the entire image against an aged parchment texture, with ornate classical borders that look like decorative scrollwork or filigree.\n",
+    "chinese_character_in_narrative_elements": "鹿",
+    "style": "Fantasy storybook illustration, with soft shading and whimsical detail, suitable for children",
+    "color": "Warm tones (oranges, browns, golds) for a magical, ancient parchment vibe",
+    "background": "Aged parchment texture with ornate classical borders",
+    "additional_notes": "",
+    "base_template": "Create a visual educational poster that illustrates the historical evolution of a Chinese character alongside a stylized character representation. Divide the layout into two sections: one for the script progression and one for a themed character illustration. Include a title at the top and a featured final character with a label at the bottom."
+  },
+  {
+    "cate": "card",
+    "name": "013.png",
+    "prompt": "Create a magical educational poster titled \"Evolution of ‘鶴’\" that visually illustrates the historical evolution of the Chinese character 鶴, meaning “Crane.”\n\nLayout:\nVertical split into two primary sections.\n\nLeft Side (Character Evolution):\nStep-by-step transformation of the character 鶴 in 2 stages:\n\nAncient Script – show an early pictographic form inspired by oracle bone or bronze inscriptions, depicting a stylized crane with long legs, wings, and a pronounced beak.\n\nTraditional Chinese – 鶴, make sure exactly the same and correct\n\nInclude an arrow between the two forms to indicate progression.\n\nLabel clearly:\n\n“Ancient Script” above the first version.\n\n“Traditional Chinese” above the second version.\n\nRight Side (Crane Artwork):\nIllustrate a majestic and mythical crane standing or gliding gracefully through a dreamlike sky.\n\nCrane details:\n\nTall and elegant with pure white feathers edged in silver and light gold.\n\nLong, delicate legs and neck.\n\nA red crown on the head (symbolic of the red-crowned crane).\n\nFlowing tail feathers and partially extended wings.\n\nThe crane should appear serene, wise, and ethereal.\n\nBackground scenery:\n\nFloating among celestial clouds, with cherry blossoms or bamboo groves subtly visible.\n\nA peaceful, magical atmosphere with soft glowing light around the crane, evoking longevity and grace.\n\nStyling & Theme:\nFantasy illustration style suitable for children and adults alike.\n\nColor palette: ethereal whites, silvers, warm golds, soft greens and pale blues.\n\nBackground mimics an aged parchment or ancient scroll, complete with decorative borders and slightly curled or singed edges.\n\nUse ornate calligraphy for the title and section labels to maintain a classical feel.\n\nTitle:\nAt the top center in elegant, traditional typography:\n\n\"Evolution of ‘鶴’\"",
+    "base_template": "",
+    "chinese_character_in_narrative_elements": "鶴",
+    "style": "",
+    "color": "",
+    "background": "",
+    "additional_notes": ""
+  },
+  {
+    "cate": "card",
+    "name": "014.png",
+    "prompt": "A vintage-style illustrated poster titled \"EVOLUTION OF 'ELEPHANT'\" showcasing the historical evolution of the Chinese character for elephant (象). The layout features an aged parchment texture, elegant decorative borders, and a vertical scroll. \n\n--- On the left side, show how the word :\n1. Ancient Script – the earliest, raw pictographic depiction of a elephant\n2. Traditional Chinese – the modern Chinese character of 象\n\n--- On the right side:\na cute, cartoon-style elephant with large ears, blush cheeks, and prominent white tusks stands under a glowing moon in a whimsical, dreamlike night forest with sparkles and soft clouds. The scene is warm, magical, and nostalgic, with soft lighting and gentle, earthy tones.",
+    "base_template": "",
+    "chinese_character_in_narrative_elements": "象",
+    "style": "",
+    "color": "",
+    "background": "",
+    "additional_notes": ""
+  },
+  {
+    "cate": "card",
+    "name": "015.png",
+    "prompt": "Create a double-page fantasy poster titled “Evolution of ‘Wolf’” focusing on the historical and mythical portrayal of the Chinese character 狼.\n\nLeft Side (Historical Evolution Section):\n\n- Design this section as a parchment scroll with textured fibers and aged, silver-tinted edges that give an ethereal, wintry feel.\n- Display 2 vertically aligned versions of the Chinese character for “wolf”:\n\n  1. Oracle Bone Script – an ancient version loosely resembling the form of a howling wolf.\n  2. Traditional Chinese – 狼, written in perfect brushstroke form with light ink flow effects.\n\n- Include faint brushstroke backgrounds and ink wash textures behind each character.\n\nRight Side (Fantasy Illustration Section):\n\n- Depict a mystical, noble wolf howling atop a crystalline mountain peak beneath a moonlit fantasy sky.\n- The wolf should be majestic yet gentle, with piercing ice-blue eyes and flowing fur that shimmers in hues of silver, white, and midnight blue.\n- Subtle magical runes glow faintly along its limbs and tail, harmonizing with starry sparkles trailing through the air.\n- Around the wolf swirl icy mist and moonlit clouds with spiral motifs and northern-lights-inspired gradients of violet and teal.\n\nTop Banner:\n\n- Include a floating scroll banner with the English title: “Evolution of ‘Wolf’” in an elegant, fantasy serif font with frost detailing.\n\nOverall Style:\n\n- Embrace a cool-toned magical palette (silvers, blues, teals, violets).\n- The tone should be majestic and mystical, balanced between historical reverence and magical whimsy.\n- Style is inspired by East Asian brush painting merged with fantasy illustration aesthetics, suitable for children and art lovers alike.",
+    "base_template": "",
+    "chinese_character_in_narrative_elements": "狼",
+    "style": "",
+    "color": "",
+    "background": "",
+    "additional_notes": ""
+  },
+  {
+    "cate": "card",
+    "name": "016.png",
+    "prompt": "An educational art poster showing the evolution of the Chinese character 鯨 (whale), with 2 stages of the script: ancient script (use imagination), traditional Chinese (show 鯨 exactly from modern daily use character set). On the right side, a majestic, stylized whale swims in a dreamy, starry cosmic ocean with swirling clouds and glowing stars. The background resembles aged parchment with a soft golden tone and ornate borders. The design combines historical calligraphy with fantasy illustration. Include vintage-style text fonts and harmonious visual balance between educational content and fantasy art.",
+    "base_template": "",
+    "chinese_character_in_narrative_elements": "鯨",
+    "style": "",
+    "color": "",
+    "background": "",
+    "additional_notes": ""
+  },
+  {
+    "cate": "card",
+    "name": "017.png",
+    "prompt": "An educational art poster showing the evolution of the Chinese character 鯨 (whale), with 2 stages of the script: ancient script (use imagination), traditional Chinese (show 鯨 exactly from modern daily use character set). On the right side, a majestic, stylized whale swims in a dreamy, starry cosmic ocean with swirling clouds and glowing stars. The background resembles aged parchment with a soft golden tone and ornate borders. The design combines historical calligraphy with fantasy illustration. Include vintage-style text fonts and harmonious visual balance between educational content and fantasy art.",
+    "base_template": "",
+    "chinese_character_in_narrative_elements": "鯨",
+    "style": "",
+    "color": "",
+    "background": "",
+    "additional_notes": ""
+  },
+  {
+    "cate": "card",
+    "name": "018.png",
+    "prompt": "Create a double-page fantasy poster depicting the historical evolution of the Chinese character for \"tiger\" (虎).\n\nLeft Side (Historical Evolution Section)\n\nDesign a parchment scroll with aged, blue-tinted edges.\nDisplay three vertically aligned Chinese scripts for “tiger”:\n\n1. Ancient Script – a more structured symbol resembling a crouching tiger.\n\n2. Traditional Chinese – 虎, written clearly and exactly correct.\n\n\nRight Side (Fantasy Illustration Section):\n\nShow a magical, majestic tiger leaping through a glowing fantasy sky.\n\nThe tiger should look kind and cute, with expressive eyes and a noble expression.\n\nIts fur is vibrant orange with white and gold accents, adorned with soft magical patterns (like light trails or star-like sparkles).\n\nThe tiger is surrounded by vivid orange and gold clouds with swirling, celestial designs.\n\nTop Banner:\n\nInclude a scroll-like banner with the English title: “Evolution of ‘Tiger’” in fantasy serif font.\n\nOverall Style:\n\nUse a warm, inviting fantasy palette (oranges, golds, creams).\n\nThe tone should be whimsical and magical, suitable for children but aesthetically rich and rooted in East Asian artistic traditions.",
+    "chinese_character_in_narrative_elements": "虎",
+    "style": "",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "019.png",
+    "prompt": "Make a colorful and magical learning poster that shows the history of the Chinese word 鷹 (it means \"Eagle\").\n\n--------\nA. On the left side, display the character 鷹 in 2 forms:\n  1. Oracle bone script – imagine an early eagle symbol with wings, depict the earliest pictographic form resembling eagle\n  \n  2. Traditional Chinese – the modern Chinese character of 鷹\n\n--------\nB. On the right side:\n- Draw a powerful but friendly **eagle hero flying in the sky**, with big wings spread wide.\n- The eagle can be part bird, part magical guardian, with glowing eyes or feathers.\n- It should look brave, soaring above the clouds, and exciting for children.\n\n--------\nC. Style:\n- Use a **fantasy illustration style** with a strong **blue color theme** (sky, feathers, background).\n- Add a **scroll or card-like background** with pretty **blue-toned borders**.",
+    "chinese_character_in_narrative_elements": "鷹",
+    "style": "",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "020.png",
+    "prompt": "A colorful fantasy poster called “Evolution of ‘Monkey’” made for children.\n\nLeft Side: display the character 猴 in 2 forms:\n\n1. Ancient Script: depict the earliest pictographic form resembling a Monkey\n2. Traditional Chinese: the modern Chinese character of 猴\n\nRight Side: A magical monkey hero jumping in the air.\n\nThe monkey is smart, kind, and strong. Big bright eyes, glowing with wisdom. Red fur with white details. Wearing a small cloak or holding a golden cudgel. Looks like a friendly forest guardian. The style is like Japanese animation\n\nThe sky is red with glowing clouds. Some black rocks or trees in the background.\n\nStyle: Fantasy illustration, child-friendly, soft but magical.\n\nTop: Title says “Evolution of ‘Monkey’”",
+    "chinese_character_in_narrative_elements": "猴",
+    "style": "",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "027.png",
+    "prompt": "Create a vertical fantasy educational poster titled **\"Lion 獅\"**, designed for children.\n\n- Feature a heroic **fantasy male warrior inspired by Fullmetal Alchemist: Brotherhood**, exuding nobility and strength.\n- His costume should be richly detailed and lion-themed: \n  - A **mane-like collar**, gold and crimson chest armor embossed with a roaring lion design.\n  - Gauntlets and greaves shaped like lion paws with claw detailing.\n  - A majestic lion mask-helmet with swirling bronze-age motifs rests atop his head.\n- His cape resembles a lion's tail and flows dramatically with the wind.\n- Expression: brave and wise, slightly smiling like a mentor-figure.\n- Background: a golden savanna merging into a mythic temple, bathed in warm sunset hues.",
+    "chinese_character_in_narrative_elements": "獅",
+    "style": "Fullmetal Alchemist",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "021.png",
+    "prompt": "A colorful fantasy poster called “Evolution of ‘Pig’” made for children.\n\nLeft Side: display the character 豬 in 2 forms:\n1. Ancient Script: depict the earliest pictographic form resembling a pig.\n2. Traditional Chinese: the modern Chinese character of 豬\n\nRight Side:\nA fantasy cute female warrior inspired by Dragon Ball Z style, blending elegance and strength. She wears a long flowing robe with pig-themed accents like a boar-tusk belt and pig-snouted shoulder pads. Her headpiece shaped like a wild pig with ornate Bronze Age patterns. Her weapon is a hammer with a pig face engraving on it. She stands confidently, slightly smiling. Color palette: soft pink, bronze, and ivory white. Manga illustration style, dramatic lighting, intricate costume detailing, full body view, vertical format.\n\nChild-friendly, whimsical and inspirational tone, suitable for educational material for kids.",
+    "base_template": "",
+    "chinese_character_in_narrative_elements": "豬",
+    "style": "Dragon Ball Z",
+    "color": "",
+    "background": "",
+    "additional_notes": ""
+  },
+  {
+    "cate": "card",
+    "name": "022.png",
+    "prompt": "A colorful fantasy poster called “Evolution of ‘Snake’” made for children.\n\nLeft Side: display the character 蛇 in 2 forms:\n\n1. Ancient Script: depict the earliest pictographic form resembling a snake\n2. Traditional Chinese: the modern Chinese character of 蛇\n\nRight Side: \nA fantasy cute female warrior inspired by One Piece style, blending elegance and strength, wearing a long flowing robe. Her back tattoo is a winding snake, her headpiece shaped like a coiled serpent in Bronze style, and her weapon is a whip. She stands with a confident pose. Color palette: dark green, gold, and black. Manga illustration style, dramatic lighting, detailed costume design, full body, vertical format.\n\nNotice: this is child friendly image.",
+    "base_template": "",
+    "chinese_character_in_narrative_elements": "蛇",
+    "style": "One Piece",
+    "color": "",
+    "background": "",
+    "additional_notes": ""
+  },
+  {
+    "cate": "card",
+    "name": "023.png",
+    "prompt": "A vibrant fantasy poster titled \"Evolution of ‘熊’\" made for children.\n\nLeft Side:\n- Show the character 熊 in 2 forms:\n  1. **Ancient Script**: the earliest pictographic form of a bear, resembling a stylized bear with claws and snout.\n  2. **Traditional Chinese**: 熊, a correct modern Traditional Chinese character, 熊\n\nRight Side:\n- A fantasy **child-friendly manga-style male warrior** inspired by *Slam Dunk* aesthetics — tall, athletic, with a strong but gentle expression.\n- The warrior wears a sleeveless, flowing martial tunic with stylized bear claw motifs and shoulder guards shaped like bear heads.\n- His back tattoo features a roaring bear emerging from a forest.\n- His headband has small bear ears subtly designed into it, a nod to his spirit animal.\n- His weapon is a glowing bear claw gauntlet crackling with elemental energy.\n- Color palette: deep brown, forest green, and ivory white.\n- **Manga illustration style**: expressive facial features, dynamic shading, and high-contrast inking, reminiscent of Slam Dunk’s dramatic panels.\n- Full body character, heroic stance, vertical format.\n- Dramatic lighting emphasizing the warrior’s features and costume details.\n",
+    "chinese_character_in_narrative_elements": "熊",
+    "style": "Slam Dunk",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "024.png",
+    "prompt": "A vertical fantasy educational poster titled 'Evolution of Monkey (猴)', designed in a manga-inspired style suitable for children. \\n\\n\n\n**Left Side:**\\n- Show two Chinese character forms for 'monkey':\\n  \n1. **Ancient Script:** a pictographic form resembling a monkey with an arched back, long limbs, and a curling tail.\\n  \n2. **Traditional Chinese:** 猴 , a correct modern Traditional Chinese character,  猴\n\n**Right Side:**\\n- Feature a heroic, friendly male warrior inspired by Demon Slayer style, symbolizing the spirit of the monkey.\\n- He wears traditional-style armor merged with stylized fur and vine motifs, in warm earthy tones like copper, red-brown, and golden tan.\\n- His helmet resembles a carved monkey face, and his shoulder guard is shaped like a curled tail.\\n- His weapon is a long, vine-wrapped staff with a carved monkey figure at the tip.\\n- The warrior strikes a dynamic pose with one leg raised on a tree stump, looking playful and ready to leap.\\n\\n\n\n**Overall Style:**\\n- Rich manga rendering similar to Demon Slayer: dramatic shading, expressive facial features, highly detailed costume.\\n- Full body character, colorful and dynamic composition.\\n- Child-friendly tone with soft highlights and magical lighting effects.\\n- Use a forest-themed background with subtle silhouettes of trees and monkeys to complete the scene.\"",
+    "chinese_character_in_narrative_elements": "猴",
+    "style": "Demon Slayer",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "025.png",
+    "prompt": "Vertical fantasy educational poster, Dragon Ball/Z–inspired manga style, child-friendly\n\nLeft Side – Character Forms:\n1. Ancient Script: depict the earliest pictographic form resembling a Monkey\n2. Traditional Chinese: the modern Chinese character of 馬\n\nRight Side – Heroic Figure:\n- A dynamic, full-body warrior embodying the spirit of the horse, drawn with bold linework and explosive shading like Dragon Ball Z.\n- Costume: Futuristic samurai-style armor with equine motifs—stylized horse head helmet crest, segmented pauldrons shaped like hooves, flowing mane-like cape in royal blue and silver.\n- Color palette: Metallic silver, cobalt blue, white highlights, electric gold energy accents.\n- Pose: Charging forward, one fist extended, energy aura swirling like crackling flame around limbs; trailing motion lines and speed-blur effects.\n- Eyes: Determined, wide-eyed DBZ expression, gleaming with fierce yet friendly spirit.\n\nWeapon:\n- A long, double-tipped lance resembling a horse’s bit and stirrup, crackling with ki lightning; vines of golden energy coil along its length.\n\nBackground & Effects:\n- Sweeping grassland and distant mountain peaks under a bright sky, rendered with speed lines and dramatic perspective.\n- Subtle silhouettes of galloping horses and swirling gusts of wind in the background panels.\n- Magical ki-energy highlights: glints of light on armor, soft glowing particles drifting upward.\n- Child-friendly tone: rounded edges, warm highlights, smiling cloud creatures peeking at the bottom.\n\nLighting & Rendering:\n- High-contrast, dynamic shading with vibrant colors.\n- Strong backlight creating a golden rim glow around character.\n- Dramatic motion lines, energy bursts, and speed effects to evoke power and movement.\n",
+    "chinese_character_in_narrative_elements": "馬",
+    "style": "Dragon Ball Z",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "026.png",
+    "prompt": "A vertical children's fantasy poster titled 'Evolution of Tiger' in bold, vibrant fonts. \\n\\n\n\nLeft Side:\\n- Background: bold gradient yellow-orange.\\n- \n\n1. Ancient Script: depict the earliest pictographic form resembling a Tiger \n2. Traditional Chinese: the modern Chinese character of 虎\n\nRight Side:\\n- A stylized anime boy warrior inspired by Initial D aesthetics, reimagined for a child-friendly audience.\\n- Outfit: sleek battle jumpsuit with tiger-stripe accents and aerodynamic armor; dominant colors: white, orange, and black.\\n- Helmet shaped like a roaring tiger head, styled with chrome edges and anime shine.\\n- Pose: crouched mid-action stance as if ready to leap or drift around a curve, exuding energy and motion.\\n- Holding dual claw-blade weapons with orange energy trails.\\n- Background: urban nightscape reminiscent of Initial D—mountains with winding roads, tire marks, and motion blur effects.\\n- Manga style line work and shading, dynamic lighting with neon glow, high-detail costume",
+    "chinese_character_in_narrative_elements": "虎",
+    "style": "Initial D",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "028.png",
+    "prompt": "A colorful fantasy poster titled “Evolution of ‘Bee’” made for children.\n\nLeft Side:\nShowcase the character 蜂 in two forms:\n1. Ancient Pictographic Script: depict the earliest form, resembling a bee with wings and antennae, stylized as if drawn on oracle bone or bronze script.\n2. Traditional Chinese: the modern character 蜂, bold and clean, below the ancient form.\n\nRight Side:\nA fantasy anime-style female warrior inspired by Sword Art Online. She is elegant, young, and energetic, wearing a sleek golden-black armor styled after a bee — with segmented plating, delicate wing motifs on her back, and hexagonal patterns subtly embossed on her chest plate and greaves. Her helmet resembles a bee’s head, complete with small golden antennae and transparent wing-like flaps. She holds a slender spear tipped with a stinger-shaped blade that glows faintly yellow. Her hair is long and flows like silk, streaked with honey-gold highlights. \n\nHer expression is warm and encouraging, with a hint of determination. She is surrounded by gentle swirls of pollen-like sparkles and flying bees. The background features blooming flowers and a glowing hive-shaped temple in the distance. Color palette: honey gold, black, amber, and soft sunlight tones. Manga illustration style, dramatic lighting, highly detailed costume textures, vertical format, child-friendly and whimsical tone suitable for educational posters.\n\nFull-body composition with a magical forest clearing atmosphere.\n",
+    "chinese_character_in_narrative_elements": "蜂",
+    "style": "Sword Art Online",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "029.png",
+    "prompt": "A colorful fantasy poster titled “Evolution of ‘Rabbit’” made for children.\n\nLeft Side:\nShowcase the character 兔 in two forms:\n1. Ancient Pictographic Script: depict the earliest form resembling a crouching rabbit with long ears and hind legs, stylized as if etched on oracle bone or bronze inscriptions—organic, raw lines that still hint at a recognizable rabbit.\n2. Traditional Chinese: the modern character 兔, bold and refined, placed just beneath the ancient form.\n\nRight Side:\nA fantasy anime-style female warrior inspired by *Gintama* aesthetics. She appears agile, bright-eyed, and slightly mischievous—embodying the nimbleness and curiosity of a rabbit. Her armor is sleek and silver-white with soft pink and jade accents, designed to resemble a rabbit’s form. Delicate ear-shaped adornments rise from her helmet, and a fluffy tail-like plume decorates her belt. The chest plate is engraved with cloud-swirl motifs and subtle lunar patterns symbolizing the Moon Rabbit legend.\n\nHer spear resembles a long carrot-shaped glaive, glowing with green energy, and her boots leave behind faint trail-like glimmers. She has medium-length snowy hair, tied in soft twin tails, and expressive eyes with warm pink undertones. \n\nThe background is a serene moonlit glade filled with clover and glowing mushrooms, with ethereal moon rabbits leaping in the distance. A giant full moon rises over hills, casting a soft silvery light. Firefly-like particles float gently around her. The whole composition maintains a vertical format with soft gradients and dramatic manga-style shading. Whimsical and child-friendly tone, perfect for educational fantasy posters.\n\nColor palette: moon silver, pastel pink, jade green, starlight white, and soft indigo twilight.\n",
+    "chinese_character_in_narrative_elements": "兔",
+    "style": "Gintama",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "030.png",
+    "prompt": "**Title:** Evolution of ‘Sheep’\n\n**Left Side:**\n- **Ancient Pictographic Script:** Display the earliest oracle bone depiction of a sheep—stylized to resemble a fluffy-bodied animal with curled horns, a slight downward muzzle, and sturdy legs. The lines should feel primitive, hand-carved, and earthy, evoking traditional Chinese bronze or bone inscriptions.\n- **Traditional Chinese:** Below the pictograph, display the character **羊**, bold and elegant in calligraphic Traditional Chinese brushwork.\n\n**Right Side:**\n- A magical girl styled like a sheep-themed guardian, inspired by *Cardcaptor Sakura* aesthetics. She is gentle, wise, and serene, with an aura of nurturing strength.\n- Her outfit is a blend of elegant robes and light armor. Fluffy textures reminiscent of wool are integrated into shoulder cuffs, skirt trim, and around her collar. Her color palette features **pearl white, soft lavender, moss green, and pastel gold**.\n- Her hair is long and silver-white with soft curls, adorned with ram-horn-shaped accessories on either side of her head. Her eyes are a calm amber gold, reflecting warmth and clarity.\n- She holds a magical crook staff (a shepherd's crook), which glows with golden sigils and crystal inlays shaped like sheep horns and clover blossoms.\n- Her cape flows behind her in a sheep-fleece texture, gently glowing with protective runes. Tiny bells line her waist, giving off sparkles.\n\n**Background:**\n- A rolling green hillscape under a soft golden twilight sky. Blossoming flowers and fluffy sheep graze peacefully.\n- A magical meadow temple stands faintly in the misty distance, shaped like a sheep horn spiral. The clouds above take on sheep-like shapes.\n- Wisps of glowing energy float around, and stylized constellations of the Sheep zodiac can be faintly seen in the sky.\n- Maintain the vertical poster format with soft magical gradients, golden outlines, and child-friendly fantasy details.\n\n**Color Palette:** Pearl white, pastel lavender, moss green, soft golden cream, sky blue twilight.\n",
+    "chinese_character_in_narrative_elements": "羊",
+    "style": "Cardcaptor Sakura",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  },
+  {
+    "cate": "card",
+    "name": "031.png",
+    "prompt": "Create a double-page fantasy poster titled “Evolution of ‘Rabbit’” inspired by the dramatic, spellbinding aesthetics of *Yu-Gi-Oh! Duel Monsters*\n\n**Left Side (Historical Evolution Section):**\n- Display 2 form of the character 猴:\n1. Ancient Script: depict the earliest pictographic form resembling a Monkey \n2. Traditional Chinese: the modern Chinese character of 猴\n\n\n**Right Side (Fantasy Illustration Section):**\n- It needs to be cute, no violate and child friendly\n- The monkey should have glowing eyes \n- Its fur is a luxurious blend of obsidian and ember gold, flowing like flame in battle wind.\n\n**Top Banner:**\n- Floating enchanted scroll reading “Evolution of ‘Monkey’” in bold, gold-lettered Gothic fantasy script with animated sparks around the letters.\n\n**Overall Style:**\n- Vivid and bold fantasy palette (crimson, gold, obsidian, jungle green, ember orange).\n\n---------\n\n\nA vertical educational fantasy poster titled 'Evolution of Mouse', in Pokémon-style illustration with manga aesthetics. \\n\\n\n\n--------\n**Left Side:**\\n- Show two Chinese character:\n\n1. a pictograph resembling a small rodent \n\n2. 鼠, modern Traditional Chinese character, 鼠\n\n--------\n**Right Side:**\\n- Feature a spirited, clever young warrior girl inspired by Demon Slayer style, embodying the spirit of the mouse.\\n- She wears a sleek, light armor decorated with cheese motif etchings and spiral patterns like mouse tunnels, using cool metallic grays, soft cream, and pastel blues.\\n- Her headgear is shaped like a cute, armored mouse face with large ears and expressive eyes.\\n- Her shoulder armor resembles tiny curled tails, and she carries a short dagger with a hilt shaped like a curled whisker.\\n- She stands on a piece of cheese-shaped rock, crouched stealthily with one hand raised in a strategic pose, ready to act.\\n\\n**Overall Style:**\\n- Manga rendering with dramatic highlights, soft glow effects, detailed costume textures, and vivid expressive facial design.\\n- Full body character with dynamic composition, rich in detail and color.\\n- Background includes a whimsical underground burrow setting with tunnels, soft glowing fungi, and mouse silhouettes.\\n- Child-friendly and magical, with a glowing, educational tone.",
+    "chinese_character_in_narrative_elements": "兔",
+    "style": "Sword Art Online",
+    "color": "",
+    "background": "",
+    "base_template": ""
+  }
+]

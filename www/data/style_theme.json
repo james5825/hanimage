@@ -1,0 +1,296 @@
+[
+    {
+    "val": "Re:從零開始的異世界生活",
+    "text": "Re:從零開始的異世界生活 (Re:Zero)",
+    "publish": 2019,
+    "id": "A051"
+  },
+  {
+    "val": "葬送的芙莉蓮",
+    "text": "葬送的芙莉蓮 (Frieren: Beyond Journey's End)",
+    "publish": 2019,
+    "id": "A050"
+  },
+  {
+    "val": "Spy x Family",
+    "text": "間諜家家酒 (Spy x Family)",
+    "publish": 2019,
+    "id": "A049"
+  },
+  {
+    "val": "Jujutsu Kaisen",
+    "text": "咒術迴戰 (Jujutsu Kaisen)",
+    "publish": 2018,
+    "id": "A048"
+  },
+  {
+    "val": "Violet Evergarden",
+    "text": "紫羅蘭永恆花園 (Violet Evergarden)",
+    "publish": 2018,
+    "id": "A047"
+  },
+  {
+    "val": "Chainsaw Man",
+    "text": "電鋸人 (Chainsaw Man)",
+    "publish": 2018,
+    "id": "A046"
+  },
+  {
+    "val": "Tokyo Revengers",
+    "text": "東京復仇者 (Tokyo Revengers)",
+    "publish": 2017,
+    "id": "A045"
+  },
+  {
+    "val": "Demon Slayer",
+    "text": "鬼滅之刃 (Demon Slayer)",
+    "publish": 2016,
+    "id": "A044"
+  },
+  {
+    "val": "My Hero Academia",
+    "text": "我的英雄學院 (My Hero Academia)",
+    "publish": 2014,
+    "id": "A043"
+  },
+  {
+    "val": "Mob Psycho 100",
+    "text": "靈能百分百 (Mob Psycho 100)",
+    "publish": 2012,
+    "id": "A042"
+  },
+  {
+    "val": "Hyouka",
+    "text": "小鎮有你 (Hyouka)",
+    "publish": 2012,
+    "id": "A041"
+  },
+  {
+    "val": "Haikyu!!",
+    "text": "排球少年!! (Haikyu!!)",
+    "publish": 2012,
+    "id": "A040"
+  },
+  {
+    "val": "Tokyo Ghoul",
+    "text": "東京喰種 (Tokyo Ghoul)",
+    "publish": 2011,
+    "id": "A039"
+  },
+  {
+    "val": "Steins;Gate",
+    "text": "命運石之門 (Steins;Gate)",
+    "publish": 2011,
+    "id": "A038"
+  },
+  {
+    "val": "Attack on Titan",
+    "text": "進擊的巨人 (Attack on Titan)",
+    "publish": 2009,
+    "id": "A037"
+  },
+  {
+    "val": "One-Punch Man",
+    "text": "一拳超人 (One-Punch Man)",
+    "publish": 2009,
+    "id": "A036"
+  },
+  {
+    "val": "Fullmetal Alchemist: Brotherhood",
+    "text": "鋼之鍊金術師：Brotherhood (Fullmetal Alchemist: Brotherhood)",
+    "publish": 2009,
+    "id": "A035"
+  },
+  {
+    "val": "Sword Art Online",
+    "text": "刀劍神域 (Sword Art Online)",
+    "publish": 2009,
+    "id": "A034"
+  },
+  {
+    "val": "Black Butler",
+    "text": "黑執事 (Black Butler)",
+    "publish": 2006,
+    "id": "A033"
+  },
+  {
+    "val": "The Melancholy of Haruhi Suzumiya",
+    "text": "涼宮春日的憂鬱 (The Melancholy of Haruhi Suzumiya)",
+    "publish": 2006,
+    "id": "A032"
+  },
+  {
+    "val": "Future Diary",
+    "text": "未來日記 (Future Diary)",
+    "publish": 2006,
+    "id": "A031"
+  },
+  {
+    "val": "Code Geass: Lelouch of the Rebellion",
+    "text": "叛逆的魯魯修 (Code Geass: Lelouch of the Rebellion)",
+    "publish": 2006,
+    "id": "A030"
+  },
+  {
+    "val": "Fairy Tail",
+    "text": "妖精的尾巴 (Fairy Tail)",
+    "publish": 2006,
+    "id": "A029"
+  },
+  {
+    "val": "Gintama",
+    "text": "銀魂 (Gintama)",
+    "publish": 2003,
+    "id": "A028"
+  },
+  {
+    "val": "Death Note",
+    "text": "死亡筆記本 (Death Note)",
+    "publish": 2003,
+    "id": "A027"
+  },
+  {
+    "val": "Bleach",
+    "text": "死神 (Bleach)",
+    "publish": 2001,
+    "id": "A026"
+  },
+  {
+    "val": "Naruto",
+    "text": "火影忍者 (Naruto)",
+    "publish": 1999,
+    "id": "A025"
+  },
+  {
+    "val": "Hunter x Hunter",
+    "text": "獵人 (Hunter x Hunter)",
+    "publish": 1998,
+    "id": "A024"
+  },
+  {
+    "val": "Cowboy Bebop",
+    "text": "星際牛仔 (Cowboy Bebop)",
+    "publish": 1998,
+    "id": "A023"
+  },
+  {
+    "val": "One Piece",
+    "text": "航海王 (One Piece)",
+    "publish": 1997,
+    "id": "A022"
+  },
+  {
+    "val": "Pokémon",
+    "text": "精靈寶可夢 (Pokémon)",
+    "publish": 1997,
+    "id": "A021"
+  },
+  {
+    "val": "Yu-Gi-Oh!",
+    "text": "遊戲王 (Yu-Gi-Oh!)",
+    "publish": 1996,
+    "id": "A019"
+  },
+  {
+    "val": "Cardcaptor Sakura",
+    "text": "魔卡少女櫻 (Cardcaptor Sakura)",
+    "publish": 1996,
+    "id": "A018"
+  },
+  {
+    "val": "Initial D",
+    "text": "頭文字D (Initial D)",
+    "publish": 1995,
+    "id": "A017"
+  },
+  {
+    "val": "Neon Genesis Evangelion",
+    "text": "新世紀福音戰士 (Neon Genesis Evangelion)",
+    "publish": 1995,
+    "id": "A016"
+  },
+  {
+    "val": "Detective Conan",
+    "text": "名偵探柯南 (Detective Conan)",
+    "publish": 1994,
+    "id": "A015"
+  },
+  {
+    "val": "Sailor Moon",
+    "text": "美少女戰士 (Sailor Moon)",
+    "publish": 1991,
+    "id": "A014"
+  },
+  {
+    "val": "Slam Dunk",
+    "text": "灌籃高手 (Slam Dunk)",
+    "publish": 1990,
+    "id": "A013"
+  },
+  {
+    "val": "Yu Yu Hakusho",
+    "text": "幽遊白書 (Yu Yu Hokusho)",
+    "publish": 1990,
+    "id": "A012"
+  },
+  {
+    "val": "Crayon Shin-chan",
+    "text": "蠟筆小新 (Crayon Shin-chan)",
+    "publish": 1990,
+    "id": "A011"
+  },
+  {
+    "val": "Dragon Ball Z",
+    "text": "七龍珠 Z (Dragon Ball Z)",
+    "publish": 1989,
+    "id": "A010"
+  },
+  {
+    "val": "Parasyte: The Maxim",
+    "text": "寄生獸 (Parasyte: The Maxim)",
+    "publish": 1988,
+    "id": "A009"
+  },
+  {
+    "val": "JoJo’s Bizarre Adventure",
+    "text": "JoJo的奇妙冒險 (JoJo’s Bizarre Adventure)",
+    "publish": 1987,
+    "id": "A008"
+  },
+  {
+    "val": "Ranma ½",
+    "text": "亂馬½ (Ranma ½)",
+    "publish": 1987,
+    "id": "A007"
+  },
+  {
+    "val": "Saint Seiya",
+    "text": "聖鬥士星矢 (Saint Seiya)",
+    "publish": 1986,
+    "id": "A005"
+  },
+  {
+    "val": "Chibi Maruko-chan",
+    "text": "櫻桃小丸子 (Chibi Maruko-chan)",
+    "publish": 1986,
+    "id": "A004"
+  },
+  {
+    "val": "Ghibli",
+    "text": "吉卜力 (Ghibli)",
+    "publish": 1985,
+    "id": "A003"
+  },
+  {
+    "val": "Doraemon",
+    "text": "哆啦A夢 (Doraemon)",
+    "publish": 1969,
+    "id": "A002"
+  },
+  {
+    "val": "Lupin the Third",
+    "text": "魯邦三世 (Lupin the Third)",
+    "publish": 1967,
+    "id": "A001"
+  }
+]

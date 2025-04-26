@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">img-prompt-app</string>
+    <string name="title_activity_main">img-prompt-app</string>
+    <string name="package_name">com.yoel.imgprompthelper</string>
+    <string name="custom_url_scheme">com.yoel.imgprompthelper</string>
+</resources>
