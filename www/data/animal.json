@@ -1,5 +1,15 @@
 [
   {
+    "val": "兔",
+    "zh": "兔",
+    "eng": "Rabbit",
+    "icon": "🐰",
+    "habitat": {
+      "zh": "陸地",
+      "eng": "Land"
+    }
+  },
+  {
     "val": "蛙",
     "zh": "蛙",
     "eng": "Frog",
@@ -47,16 +57,6 @@
     "habitat": {
       "zh": "空中",
       "eng": "Air"
-    }
-  },
-  {
-    "val": "蟻",
-    "zh": "蟻",
-    "eng": "Ant",
-    "icon": "🐜",
-    "habitat": {
-      "zh": "昆蟲",
-      "eng": "Insect"
     }
   },
   {
@@ -150,16 +150,6 @@
     }
   },
   {
-    "val": "獅",
-    "zh": "獅",
-    "eng": "Lion",
-    "icon": "🦁",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
     "val": "猴",
     "zh": "猴",
     "eng": "Monkey",
@@ -199,16 +189,7 @@
       "eng": "Land"
     }
   },
-  {
-    "val": "兔",
-    "zh": "兔",
-    "eng": "Rabbit",
-    "icon": "🐰",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
+
   {
     "val": "羊",
     "zh": "羊",
@@ -224,16 +205,6 @@
     "zh": "蛇",
     "eng": "Snake",
     "icon": "🐍",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "虎",
-    "zh": "虎",
-    "eng": "Tiger",
-    "icon": "🐯",
     "habitat": {
       "zh": "陸地",
       "eng": "Land"
@@ -284,16 +255,6 @@
     "zh": "鯊",
     "eng": "Shark",
     "icon": "🦈",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "龜",
-    "zh": "龜",
-    "eng": "Turtle",
-    "icon": "🐢",
     "habitat": {
       "zh": "水中",
       "eng": "Water"
@@ -377,356 +338,6 @@
     "habitat": {
       "zh": "陸地",
       "eng": "Land"
-    }
-  },
-  {
-    "val": "鸚鵡",
-    "zh": "鸚鵡",
-    "eng": "Parrot",
-    "icon": "🦜",
-    "habitat": {
-      "zh": "空中",
-      "eng": "Air"
-    }
-  },
-  {
-    "val": "恐龍",
-    "zh": "恐龍",
-    "eng": "Dinosaur",
-    "icon": "🦖",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "刺蝟",
-    "zh": "刺蝟",
-    "eng": "Hedgehog",
-    "icon": "🦔",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "袋鼠",
-    "zh": "袋鼠",
-    "eng": "Kangaroo",
-    "icon": "🦘",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "麋鹿",
-    "zh": "麋鹿",
-    "eng": "Moose",
-    "icon": "🫎",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "熊貓",
-    "zh": "熊貓",
-    "eng": "Panda",
-    "icon": "🐼",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "浣熊",
-    "zh": "浣熊",
-    "eng": "Raccoon",
-    "icon": "🦝",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "馴鹿",
-    "zh": "馴鹿",
-    "eng": "Reindeer",
-    "icon": "🦌",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "犀牛",
-    "zh": "犀牛",
-    "eng": "Rhino",
-    "icon": "🦏",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "臭鼬",
-    "zh": "臭鼬",
-    "eng": "Skunk",
-    "icon": "🦨",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "樹懶",
-    "zh": "樹懶",
-    "eng": "Sloth",
-    "icon": "🦥",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "蜥蜴",
-    "zh": "蜥蜴",
-    "eng": "Lizard",
-    "icon": "🦎",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "松鼠",
-    "zh": "松鼠",
-    "eng": "Squirrel",
-    "icon": "🐿️",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "斑馬",
-    "zh": "斑馬",
-    "eng": "Zebra",
-    "icon": "🦓",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "河狸",
-    "zh": "河狸",
-    "eng": "Beaver",
-    "icon": "🦫",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "鱷魚",
-    "zh": "鱷魚",
-    "eng": "Crocodile",
-    "icon": "🐊",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "海豚",
-    "zh": "海豚",
-    "eng": "Dolphin",
-    "icon": "🐬",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "河馬",
-    "zh": "河馬",
-    "eng": "Hippo",
-    "icon": "🦛",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "水母",
-    "zh": "水母",
-    "eng": "Jellyfish",
-    "icon": "🪼",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "章魚",
-    "zh": "章魚",
-    "eng": "Octopus",
-    "icon": "🐙",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "水獺",
-    "zh": "水獺",
-    "eng": "Otter",
-    "icon": "🦦",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "企鵝",
-    "zh": "企鵝",
-    "eng": "Penguin",
-    "icon": "🐧",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "海獅",
-    "zh": "海獅",
-    "eng": "Sea Lion",
-    "icon": "🦭",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "駱駝",
-    "zh": "駱駝",
-    "eng": "Camel",
-    "icon": "🐪",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "山羊",
-    "zh": "山羊",
-    "eng": "Goat",
-    "icon": "🐐",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "火雞",
-    "zh": "火雞",
-    "eng": "Turkey",
-    "icon": "🦃",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "獵豹",
-    "zh": "獵豹",
-    "eng": "Cheetah",
-    "icon": "🐆",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "黑豹",
-    "zh": "黑豹",
-    "eng": "Panther",
-    "icon": "🐆",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "龍蝦",
-    "zh": "龍蝦",
-    "eng": "Lobster",
-    "icon": "🦞",
-    "habitat": {
-      "zh": "水中",
-      "eng": "Water"
-    }
-  },
-  {
-    "val": "火烈鳥",
-    "zh": "火烈鳥",
-    "eng": "Flamingo",
-    "icon": "🦩",
-    "habitat": {
-      "zh": "空中",
-      "eng": "Air"
-    }
-  },
-  {
-    "val": "貓頭鷹",
-    "zh": "貓頭鷹",
-    "eng": "Owl",
-    "icon": "🦉",
-    "habitat": {
-      "zh": "空中",
-      "eng": "Air"
-    }
-  },
-  {
-    "val": "長頸鹿",
-    "zh": "長頸鹿",
-    "eng": "Giraffe",
-    "icon": "🦒",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "無尾熊",
-    "zh": "無尾熊",
-    "eng": "Koala",
-    "icon": "🐨",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "北極熊",
-    "zh": "北極熊",
-    "eng": "Polar Bear",
-    "icon": "🐻‍❄️",
-    "habitat": {
-      "zh": "陸地",
-      "eng": "Land"
-    }
-  },
-  {
-    "val": "獨角獸",
-    "zh": "獨角獸",
-    "eng": "Unicorn",
-    "icon": "🦄",
-    "habitat": {
-      "zh": "神話",
-      "eng": "Mythical"
     }
   }
 ]
