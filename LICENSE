@@ -1,31 +1,7 @@
-Copyright and License Notice
-© 2025 James Hung
+Copyright 2025 James Hung
 
-This software is provided as strict open source, for personal, educational, and non-commercial use only.
+Licensed under the PolyForm Noncommercial License 1.0.0.
+See https://polyformproject.org/licenses/noncommercial/1.0.0/
 
-License Terms:
-Redistribution, modification, and use in source and binary forms are permitted for non-commercial purposes only.
-
-Any commercial use is strictly prohibited without explicit, prior written consent from the copyright holder.
-
-Commercial use includes (but is not limited to):
-
-Using the software or its derivatives in paid products or services.
-
-Using the software or its derivatives in internal business tools, SaaS platforms, or as part of monetized services.
-
-Redistributing the software as part of commercial offers, packages, or services.
-
-Restrictions:
-You may not sublicense, rent, lease, sell, or use the software for profit.
-
-You may not remove this license from any distribution or derivative work.
-
-Disclaimer:
-This software is provided "AS IS", without warranty of any kind.
-
-Suggested file placement:
-Create a LICENSE.txt file in the root of your repository.
-
-Add a short license badge in your README.md:
-Licensed for Non-Commercial Use Only © 2025 James Hung
+Use is permitted for non-commercial purposes only.
+Commercial use of any kind is strictly prohibited.
