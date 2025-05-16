@@ -3,7 +3,7 @@ Public access url: https://james5825.github.io/hanimage/www/
 
 Access QR code: https://james5825.github.io/hanimage/hanimage_qr_url.png
 
-![alt text](hanimage_qr_url.png)
+![Access QR code](hanimage_qr_url.png)
 
 ## Introduction
 hAnImage is a cross-platform desktop application for collecting and sharing AI image generation prompts. Built with Electron and jQuery, hAnImage provides a simple and intuitive interface that empowers children to create unique image prompts based on selected animals and themes.
